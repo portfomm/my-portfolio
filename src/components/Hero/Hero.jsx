@@ -1,6 +1,6 @@
 import React from 'react';
 import './Hero.scss';
-import itsMe from "../../assets/Images/myimg2.png"
+import itsMe from "../../assets/Images/myimg3.png"
 import LinkedInIcon from '../../assets/icons/linkedin';
 import GitHub from '../../assets/icons/github';
 import GmailIcon from '../../assets/icons/gmail';
