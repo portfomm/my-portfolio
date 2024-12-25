@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./banner.scss";
 import AwsIcon from "../../../assets/icons/aws";
 import HtmlIcon from "../../../assets/icons/html";
@@ -8,10 +8,11 @@ import NestJsIcon from "../../../assets/icons/nestjs";
 import ExpressJsIcon from "../../../assets/icons/express";
 import DynamoDb from "../../../assets/icons/dynamodb";
 import MySqlIcon from "../../../assets/icons/mysql";
+import TypeScriptIcon from "../../../assets/icons/typescript";
+import JavaScriptIcon from "../../../assets/icons/javascript";
 
 const TeachBanner = () => {
-  const skillsTypes = ["FRONT-END", "BACKEND", "INTEGRATION"];
-  const [activeButton, setActiveButton] = useState("FRONT-END");
+  const skillsTypes = ["FRONT-END", "BACKEND", "DATABASE"];
   const frontEnd = [
     {
       id: 1,
@@ -53,13 +54,37 @@ const TeachBanner = () => {
       id: 7,
       img: <DynamoDb size={120} color={"#000000"} />,
       name: "",
-      type: "INTEGRATION",
+      type: "DATABASE",
     },
     {
       id: 8,
       img: <MySqlIcon size={120} color={"#000000"} />,
       name: "",
-      type: "INTEGRATION",
+      type: "DATABASE",
+    },
+    {
+      id: 1,
+      img: <TypeScriptIcon size={120} color={"#000000"} />,
+      name: "",
+      type: "BACKEND",
+    },
+    {
+      id: 1,
+      img: <TypeScriptIcon size={120} color={"#000000"} />,
+      name: "",
+      type: "FRONT-END",
+    },
+    {
+      id: 1,
+      img: <JavaScriptIcon size={120} color={"#000000"} />,
+      name: "",
+      type: "BACKEND",
+    },
+    {
+      id: 1,
+      img: <JavaScriptIcon size={120} color={"#000000"} />,
+      name: "",
+      type: "FRONT-END",
     },
   ];
   return (
