@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.0d7b741c.css",
+    "main.js": "/my-portfolio/static/js/main.0acf8992.js",
+    "static/js/488.21a3b654.chunk.js": "/my-portfolio/static/js/488.21a3b654.chunk.js",
+    "static/media/itsMe.png": "/my-portfolio/static/media/itsMe.5398af40dfc74ce3310c.png",
+    "static/media/aboutMe.jpg": "/my-portfolio/static/media/aboutMe.7bf0e3aea2d4ea9f9fbc.jpg",
+    "static/media/globe.png": "/my-portfolio/static/media/globe.71dcf5bb5c05933049c0.png",
+    "static/media/waterBubble.png": "/my-portfolio/static/media/waterBubble.38d3e8950c860c1d0284.png",
+    "static/media/MADE Outer Sans Outline Alt Black PERSONAL USE.otf": "/my-portfolio/static/media/MADE Outer Sans Outline Alt Black PERSONAL USE.011bdc212eed6f47255a.otf",
+    "static/media/MADE Outer Sans Alt Medium PERSONAL USE.otf": "/my-portfolio/static/media/MADE Outer Sans Alt Medium PERSONAL USE.ef31076c84fa3eacc187.otf",
+    "static/media/MADE Outer Sans Alt Regular PERSONAL USE.otf": "/my-portfolio/static/media/MADE Outer Sans Alt Regular PERSONAL USE.93b7951551af9ca83dd0.otf",
+    "static/media/MADE Outer Sans Alt Bold PERSONAL USE.otf": "/my-portfolio/static/media/MADE Outer Sans Alt Bold PERSONAL USE.31989cd408d118150224.otf",
+    "static/media/MADE Outer Sans Alt Black PERSONAL USE.otf": "/my-portfolio/static/media/MADE Outer Sans Alt Black PERSONAL USE.2e1fefbc5f3733ea40a3.otf",
+    "static/media/MADE Outer Sans Alt Thin PERSONAL USE.otf": "/my-portfolio/static/media/MADE Outer Sans Alt Thin PERSONAL USE.567ddb620a42533f9f9b.otf",
+    "static/media/MADE Outer Sans Regular PERSONAL USE.otf": "/my-portfolio/static/media/MADE Outer Sans Regular PERSONAL USE.40662520491a903f652e.otf",
+    "static/media/MADE Outer Sans Alt Light PERSONAL USE.otf": "/my-portfolio/static/media/MADE Outer Sans Alt Light PERSONAL USE.ae140d028a6ebfe92c82.otf",
+    "static/media/MADE Outer Sans Black PERSONAL USE.otf": "/my-portfolio/static/media/MADE Outer Sans Black PERSONAL USE.e937794806322c7696ba.otf",
+    "static/media/MADE Outer Sans Light PERSONAL USE.otf": "/my-portfolio/static/media/MADE Outer Sans Light PERSONAL USE.b5f49917ada27a87ae91.otf",
+    "static/media/fillerImage.png": "/my-portfolio/static/media/fillerImage.8644f2123cf1d25722a5.png",
+    "index.html": "/my-portfolio/index.html",
+    "main.0d7b741c.css.map": "/my-portfolio/static/css/main.0d7b741c.css.map",
+    "main.0acf8992.js.map": "/my-portfolio/static/js/main.0acf8992.js.map",
+    "488.21a3b654.chunk.js.map": "/my-portfolio/static/js/488.21a3b654.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d7b741c.css",
+    "static/js/main.0acf8992.js"
+  ]
+}
