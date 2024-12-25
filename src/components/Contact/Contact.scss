@@ -1,0 +1,129 @@
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 12px 0;
+
+    .heading {
+        font-size: 2.2rem;
+        font-weight: 600;
+        margin: 8px 0;
+        color: #ffffff;
+    }
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    max-width: 400px;
+    padding: 40px;
+    background-color: rgb(255 0 255 / 10%);
+    border-radius: 10px;
+}
+
+.contact-form label {
+    align-self: flex-start;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+    width: 100%;
+    padding: 16px;
+    border: none;
+    border-radius: 20px;
+    background-color: #ff00ff2b;
+    font-size: 14px;
+    color: #333;
+}
+
+.contact-form textarea {
+    resize: none;
+    height: 100px;
+}
+
+.contact-form button {
+    background-color: #b21eb2;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+}
+
+.contact-form button:hover {
+    background-color: #7d107d;
+}
+
+.submit-button {
+    width: 115px !important;
+    padding: 12px !important;
+    border-radius: 20px;
+}
+
+/* Button.css */
+.custom-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #c22ed2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 250px;
+    height: 30px;
+    padding: 8px;
+    font-size: 0.8rem;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.gmail_link {
+    background-color: #FD4D3E;
+}
+
+.linkedin_link {
+    background-color: #2573A1;
+}
+
+.git_link {
+    background-color: #000000;
+}
+
+.custom-button svg {
+    width: 24px;
+    height: 24px;
+    fill: white;
+}
+
+.custom-button:hover {
+    background-color: #a826b5;
+    transform: scale(1.05);
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+@media (max-width: 1090px) {
+    .contact-form {
+        width: unset !important;
+    }
+}

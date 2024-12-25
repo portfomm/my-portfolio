@@ -1,13 +1,144 @@
+@font-face {
+  font-family: 'MADE Outer Sans';
+  src: url('./assets/fonts/MADE\ Outer\ Sans\ Alt\ Black\ PERSONAL\ USE.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MADE Outer Sans';
+  src: url('./assets/fonts/MADE\ Outer\ Sans\ Alt\ Bold\ PERSONAL\ USE.otf') format('opentype');
+  font-weight: 700; 
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'MADE Outer Sans';
+  src: url('./assets/fonts/MADE\ Outer\ Sans\ Alt\ Light\ PERSONAL\ USE.otf') format('opentype');
+  font-weight: 300; 
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'MADE Outer Sans medium';
+  src: url('./assets/fonts/MADE\ Outer\ Sans\ Alt\ Medium\ PERSONAL\ USE.otf') format('opentype');
+  font-weight: 400; 
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'MADE Outer Sans Regular';
+  src: url('./assets/fonts/MADE\ Outer\ Sans\ Alt\ Regular\ PERSONAL\ USE.otf') format('opentype');
+  font-weight: normal; 
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'MADE Outer Sans Thin';
+  src: url('./assets/fonts/MADE\ Outer\ Sans\ Alt\ Thin\ PERSONAL\ USE.otf') format('opentype');
+  font-weight: normal; 
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'MADE Outer Sans black';
+  src: url('./assets/fonts/MADE\ Outer\ Sans\ Black\ PERSONAL\ USE.otf') format('opentype');
+  font-weight: normal; 
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MADE Outer Sans Outline black';
+  src: url('./assets/fonts/MADE\ Outer\ Sans\ Outline\ Alt\ Black\ PERSONAL\ USE.otf') format('opentype');
+  font-weight: normal; 
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MADE Outer Sans regular use';
+  src: url('./assets/fonts/MADE\ Outer\ Sans\ Regular\ PERSONAL\ USE.otf') format('opentype');
+  font-weight: normal; 
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MADE Outer Sans paragraph use';
+  src: url('./assets/fonts/MADE\ Outer\ Sans\ Light\ PERSONAL\ USE.otf') format('opentype');
+  font-weight: normal; 
+  font-style: normal;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'MADE Outer Sans Regular', -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(39, 15, 43, 1) 50%, rgba(30, 7, 126, 1) 100%);
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.content-wrapper{
+  width:75vw;
+  margin: 0 auto;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.flex-column{
+  flex-direction: column;
+}
+
+.align-item-center{
+  align-items: center;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.me-5{
+  margin-top:3.2rem;
+  margin-bottom: 3.2rem;
+}
+
+.w-100{
+  width: 100%;
+}
+
+p {
+  font-family: 'MADE Outer Sans paragraph use'  !important;
+  font-weight: 500 !important;
+}
+
+ul {
+  font-family: 'MADE Outer Sans paragraph use'  !important;
+  font-weight: 300 !important;
+}
+
+h4 {
+  font-family: 'MADE Outer Sans paragraph use'  !important;
+  font-weight: 700 !important;
+}
+
+
+@media (max-width: 1290px) {
+  .content-wrapper{
+    width: 95%;
+  }
 }
