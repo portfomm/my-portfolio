@@ -7,9 +7,7 @@ import GmailIcon from '../../assets/icons/gmail';
 
 const Hero = () => {
   const handleDownload = () => {
-    console.log('hi clicked');
-    // Path to the local PDF file in the 'public' folder
-    const pdfPath = "/pdf/cv.pdf";
+    const pdfPath = "https://drive.google.com/file/d/1EM29FDvHiZCEgAR4Q9IxmPEYwcO15KmU/view?usp=sharing";
 
     window.open(pdfPath, "_blank");
   }
