@@ -1,6 +1,8 @@
 import React, {useState} from 'react';
 import './Experiences.scss';
-import projectimg from "../../assets/Images/aboutMe.jpg"
+import projectimg1 from "../../assets/Images/experience1.png"
+import projectimg2 from "../../assets/Images/experience2.png"
+import projectimg3 from "../../assets/Images/experience3.png"
 import CommonModal from '../../custom/Modal/Modal';
 
 const Experiences = () => {
@@ -9,6 +11,7 @@ const Experiences = () => {
   const experiencesArray = [
     {
       id: 1,
+      img: projectimg1,
       post: 'Software Engineer',
       company: 'Avonet Technologies PVT LTD',
       companyLocation: 'Kent Town SA 5067, Australia',
@@ -32,6 +35,7 @@ const Experiences = () => {
     },
     {
       id: 2,
+      img: projectimg2,
       post: 'Associate Software Engineer',
       company: 'Avonet Technologies PVT LTD',
       companyLocation: 'Kent Town SA 5067, Australia',
@@ -53,6 +57,7 @@ const Experiences = () => {
     },
     {
       id: 3,
+      img: projectimg3,
       post: 'Software Engineer Intern',
       company: 'Avonet Technologies PVT LTD',
       companyLocation: 'Kent Town SA 5067, Australia',
@@ -87,7 +92,7 @@ const Experiences = () => {
               className="project_wrapper"
             >
               <div className="project_cover">
-                <img src={projectimg} alt={experience.post} />
+                <img src={experience.img} alt={experience.post} />
 
               </div>
               <div className="project_header" style={{top: index % 3 === 0 ? '0px' : index % 3 === 1 ? '50px' : '50px', left: index % 3 === 0 ? 'unset' : index % 3 === 1 ? '-50px' : 'unset', right: index % 3 === 1 ? '' : '-50px'}}>

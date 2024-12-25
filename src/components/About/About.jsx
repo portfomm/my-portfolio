@@ -1,8 +1,5 @@
 import React from "react";
 import "./About.scss";
-import FaceBookIcon from "../../assets/icons/facebook";
-import Instagram from "../../assets/icons/instagram";
-import Xicon from "../../assets/icons/twitter";
 
 const About = () => {
   return (

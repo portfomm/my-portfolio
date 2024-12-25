@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./Projects.scss";
-import projectimg from "../../assets/Images/aboutMe.jpg";
+import projectimg1 from "../../assets/Images/projects1.png"
+import projectimg2 from "../../assets/Images/projects2.png"
+import projectimg3 from "../../assets/Images/projects3.png"
 import CommonModal from "../../custom/Modal/Modal";
 
 const Projects = () => {
@@ -10,6 +12,7 @@ const Projects = () => {
   const projectsArray = [
     {
       id: 1,
+      img: projectimg1,
       name: "Train Ticket Booking System",
       languages: "Next Js, Nest Js, TypeScripts, AWS Resources",
       company: "Avonet Technologies PVT LTD",
@@ -40,6 +43,7 @@ const Projects = () => {
     },
     {
       id: 2,
+      img: projectimg2,
       name: "SmartRide",
       languages: "Flutter, PostgreSQL, Express, React, NodeJs",
       company: "3rd Year Group Project",
@@ -49,6 +53,7 @@ const Projects = () => {
     },
     {
       id: 3,
+      img: projectimg3,
       name: "IMSystem",
       languages: "HTML, CSS, PHP, Javascript",
       company: "2nd Year Group Project",
@@ -79,7 +84,7 @@ const Projects = () => {
           >
             <div key={project.id} className="project_wrapper">
               <div className="project_cover">
-                <img src={projectimg} alt={project.name} />
+                <img src={project.img} alt={project.name} />
               </div>
               <div className="project_header" style={{top: index % 3 === 0 ? '0px' : index % 3 === 1 ? '50px' : '50px', left: index % 3 === 0 ? 'unset' : index % 3 === 1 ? '-50px' : 'unset', right: index % 3 === 1 ? '' : '-50px'}}>
                 <h3>{project.name}</h3>
