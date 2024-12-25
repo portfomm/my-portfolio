@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.6ae2daf6.css",
-    "main.js": "/my-portfolio/static/js/main.bc64aecd.js",
+    "main.css": "/my-portfolio/static/css/main.5a4a1bf7.css",
+    "main.js": "/my-portfolio/static/js/main.c9f97ba4.js",
     "static/js/488.21a3b654.chunk.js": "/my-portfolio/static/js/488.21a3b654.chunk.js",
-    "static/media/myimg2.png": "/my-portfolio/static/media/myimg2.e699e6ee445bde10da88.png",
+    "static/media/myimg3.png": "/my-portfolio/static/media/myimg3.8e2c447bf3626f1fd746.png",
     "static/media/aboutMe.png": "/my-portfolio/static/media/aboutMe.43c48a09bdeda893d0c0.png",
     "static/media/projects3.png": "/my-portfolio/static/media/projects3.db3d2281dd955c7ff1ad.png",
     "static/media/experience1.png": "/my-portfolio/static/media/experience1.d6894d89852563de29d6.png",
@@ -25,12 +25,12 @@
     "static/media/MADE Outer Sans Light PERSONAL USE.otf": "/my-portfolio/static/media/MADE Outer Sans Light PERSONAL USE.b5f49917ada27a87ae91.otf",
     "static/media/fillerImage.png": "/my-portfolio/static/media/fillerImage.8644f2123cf1d25722a5.png",
     "index.html": "/my-portfolio/index.html",
-    "main.6ae2daf6.css.map": "/my-portfolio/static/css/main.6ae2daf6.css.map",
-    "main.bc64aecd.js.map": "/my-portfolio/static/js/main.bc64aecd.js.map",
+    "main.5a4a1bf7.css.map": "/my-portfolio/static/css/main.5a4a1bf7.css.map",
+    "main.c9f97ba4.js.map": "/my-portfolio/static/js/main.c9f97ba4.js.map",
     "488.21a3b654.chunk.js.map": "/my-portfolio/static/js/488.21a3b654.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ae2daf6.css",
-    "static/js/main.bc64aecd.js"
+    "static/css/main.5a4a1bf7.css",
+    "static/js/main.c9f97ba4.js"
   ]
 }
