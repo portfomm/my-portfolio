@@ -250,4 +250,8 @@
     .about_me {
         width: unset !important;
     }
+
+    .its-me::after {
+        background-image: none
+    }
 }
